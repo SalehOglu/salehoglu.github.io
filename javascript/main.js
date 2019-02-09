@@ -32,12 +32,16 @@ $(document).ready(function () {
     });
     
     /****** Spinner loading ********/
-     
+    
+    
     $("#fakeLoader").fakeLoader({
         timeToHide: 3000,
-        zIndex: 999,
-        spinner: "spinner2"
+        zIndex: 999999,
+        spinner: "spinner2",
+        bgColor: "none"
     });
+    
+    
     
     /*** Portfolio responsive **/
    

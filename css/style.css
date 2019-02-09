@@ -16,12 +16,15 @@ a,a:hover{
 }
 
 /***---===== Spinner loading====---------******/
+
 #fakeLoader{
     background: url(../images/bg.gif) center center;
     background-size: cover;
+
 }
 
 /***-=========Header=====-----*/
+
 
 header{
     width: 100%;
@@ -351,7 +354,7 @@ aside .navigation-menu.active{
 
 
 main{
-    background: #4A0000;
+    background: #1e0a3d;
     padding: 100px 0 ;
 }
 main h2{
@@ -377,7 +380,7 @@ main .text p{
     padding-top: 100px;
     padding-bottom: 150px;
     position: relative;
-    background: #1e0a3d;
+    background: #4A0000;
 }
 
 .skills h2{
@@ -401,6 +404,8 @@ main .text p{
 }
 
 .skills .group .progress-bar{
+    background-color: #e65044;
+    
     -webkit-transition: all 2s ease-in-out;
     -moz-transition: all 2s ease-in-out;
     -ms-transition: all 2s ease-in-out;
@@ -734,6 +739,34 @@ main .text p{
 
 }
     
+
+@media (max-width:350px){
+    .work .view:hover .num-1,
+    .work .view:hover .num-2{
+    margin-top:-150%;
+}
+
+.work .view:hover .num-3{
+    margin-top:-167%;
+}
+
+
+.work .view-mob:hover .num-1{
+    margin-top:-590%;
+}
+
+.work .view-mob:hover .num-2{
+    margin-top:-655%;
+}
+
+
+.work .view-mob:hover .num-3{
+    margin-top:-445%;
+}
+   
+}
+
+
 /*======Contact info ========*/
 
 footer{
