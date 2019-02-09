@@ -9,7 +9,7 @@ $(document).ready(function () {
     
     //smooth scroll
     
-     $("body").niceScroll({
+    $("body").niceScroll({
         cursorcolor: "#1abc9c"
         
     });
@@ -31,24 +31,31 @@ $(document).ready(function () {
         }
     });
     
+    /****** Spinner loading ********/
+     
+    $("#fakeLoader").fakeLoader({
+        timeToHide: 3000,
+        zIndex: 999,
+        spinner: "spinner2"
+    });
     
     /*** Portfolio responsive **/
    
-    $(".work ul .mobile").on("click", () => {
+    $(".work ul .mobile").on("click", function () {
        
         $(".work .pc").css("display", "none");
         $(".work .mob").css("display", "block");
     
     });
     
-    $(".work ul .all").on("click", () => {
+    $(".work ul .all").on("click", function () {
        
         $(".work .pc").css("display", "block");
         $(".work .mob").css("display", "block");
     
     });
     
-    $(".work ul .comp").on("click", () => {
+    $(".work ul .comp").on("click", function () {
        
         $(".work .pc").css("display", "block");
         $(".work .mob").css("display", "none");
@@ -73,7 +80,7 @@ function openMenu(event) {
     event.stopImmediatePropagation();
 }
 
-function closeMenu(event) {
+function closeMenu() {
     "use strict";
     if (navButton.classList.contains("active")) {
         navButton.classList.remove("active");
