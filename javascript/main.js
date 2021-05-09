@@ -39,7 +39,7 @@ $(document).ready(function() {
 
 
     $("#fakeLoader").fakeLoader({
-        timeToHide: 3000,
+        timeToHide: 2500,
         zIndex: 999999,
         spinner: "spinner2",
         bgColor: "none"
