@@ -99,5 +99,3 @@ function closeMenu() {
 
 navButton.addEventListener("click", openMenu, false);
 win.addEventListener("click", closeMenu, false);
-
-window.addEventListener("mousewheel", function(event) { event.preventDefault(); }, { passive: false });
