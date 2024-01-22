@@ -3,47 +3,35 @@
 
 $(document).ready(function() {
     "use strict";
-
     AOS.init();
     $('[data-toggle="tooltip"]').tooltip();
 
     //smooth scroll
-
     $("body").niceScroll({
         cursorcolor: "#1abc9c"
-
     });
 
     $("a").on('click', function(event) {
-
         if (this.hash !== "") {
             event.preventDefault();
-
-
-
             var hash = this.hash;
-
-
+            
             $('html, body').animate({
                 scrollTop: $(hash).offset().top
             }, 1200, function() {
 
-                window.location.hash = hash;
-
-
+            window.location.hash = hash;
             });
         }
     }, { passive: false });
 
     /****** Spinner loading ********/
-
-
-    $("#fakeLoader").fakeLoader({
-        timeToHide: 2500,
-        zIndex: 999999,
-        spinner: "spinner2",
-        bgColor: "none"
-    });
+    // $("#fakeLoader").fakeLoader({
+    //     timeToHide: 2500,
+    //     zIndex: 999999,
+    //     spinner: "spinner2",
+    //     bgColor: "none"
+    // });
 
 
 
