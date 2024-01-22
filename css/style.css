@@ -824,6 +824,10 @@ footer .info span {
     font-size: 1.2em;
 }
 
+footer .info a {
+    cursor: pointer;
+}
+
 button {
     color: #EEE;
     background-color: transparent;
