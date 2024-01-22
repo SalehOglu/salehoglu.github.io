@@ -171,15 +171,21 @@ aside .navigation-button {
     position: fixed;
     z-index: 55;
     top: 40px;
-    right: 6%;
+    right: 10px;
     background: transparent;
     cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    aside .navigation-button {
+        background: #1a1a1a;
+    }
 }
 
 aside .navigation-button i {
     border: 2px solid #fff;
     border-radius: 3px;
-    padding: 10px;
+    padding: 5px;
 }
 
 aside .navigation-menu {
