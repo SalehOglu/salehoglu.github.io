@@ -826,6 +826,7 @@ footer .info span {
 
 footer .info a {
     cursor: pointer;
+    color: inherit;
 }
 
 button {
