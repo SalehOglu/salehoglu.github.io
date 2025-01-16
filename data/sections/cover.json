@@ -1,0 +1,22 @@
+{
+    "locales": {
+        "en": {
+            "welcome": "Welcome to my <span class='text-primary'>Resume!</span>",
+            "welcomeShort": "Welcome!",
+            "bio": "As a Front-End Web Developer, I am passionate about crafting intuitive and visually engaging web applications. I am dedicated to continuously expanding my knowledge and expertise, with a focus on enhancing user experiences. Always eager to take on more complex challenges, I strive to optimize user efficiency and elevate my skills to deliver innovative, high-quality solutions."
+        }
+    },
+
+    "items": {
+        "socialCircles": [
+            "@link{profile.contact.linkedin}",
+            "@link{profile.contact.github}"
+        ],
+
+        "contactListItems": [
+            "@link{profile.contact.address}",
+            "@link{profile.contact.email}",
+            "@link{profile.contact.phone}"
+        ]
+    }
+}

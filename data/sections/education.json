@@ -1,0 +1,23 @@
+{
+    "locales": {
+        "en": {
+            "title": "<span class='text-primary'>Educational</span> Background",
+            "description": "A glimpse into my academic trajectory."
+        }
+    },
+
+    "items": [
+        {
+            "id": "bachelor_mansoura",
+            "place": "@link{places.mansoura}",
+            "period": ["2015/07"],
+
+            "locales": {
+                "en": {
+                    "title": "Bachelor's in Electronics & Communication Engineering",
+                    "description": "Graduated with a strong foundation in Communication and Electronics Engineering, with a focus on integrating technology and user-centered design."
+                }
+            }
+        }
+    ]
+}

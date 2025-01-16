@@ -1,0 +1,26 @@
+{
+    "vijua": {
+        "logoUrl": "images/places/logo-vijua.png",
+        "faIcon": "fa fa-house-laptop",
+        "locales": {
+            "en": {"name": "Vijua"}
+        }
+    },
+
+    "self": {
+        "logoUrl": "images/places/logo-self.png",
+        "faIcon": "fab fa-house-laptop",
+        "locales": {
+            "en": {"name": "Self-employed."}
+        }
+    },
+
+    "mansoura": {
+        "logoUrl": "images/places/logo-mansoura.png",
+        "faIcon": "fas fa-university",
+        "locales": {
+            "en": {"name": "Mansoura University"},
+            "ar": {"name": "Universidad de Mansoura"}
+        }
+    }
+}

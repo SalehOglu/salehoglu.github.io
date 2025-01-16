@@ -1,0 +1,72 @@
+{
+    "locales": {
+        "en": {
+            "title": "Career <span class='text-primary'>Achievements</span>",
+            "description": "My journey as a Front-End Developer has been defined by a strong commitment to continuous learning, skill development, and active involvement in tech events and communities."
+        }
+    },
+
+    "subcategories": [
+        {
+            "id": "awards",
+            "faIcon": "fa-solid fa-trophy",
+            "locales": {
+                "en": {"title": "Awards", "buttonLabel": "More Info"}
+            }
+        }
+    ],
+
+    "items": {
+        "awards": [
+
+            {
+                "id": "employee2",
+                "place": "@link{places.vijua}",
+                "date": "2024/10",
+                "href": "https://www.linkedin.com/posts/vijua_congratulations-to-abdullah-saleh-our-front-end-activity-7263877686329016320-TjHS?utm_source=share&utm_medium=member_desktop",
+                "locales": {
+                    "en": {
+                        "title": "Employee of The Month",
+                        "description": "Honored for outstanding performance, dedication, and consistent contributions, showcasing a strong work ethic."
+                    }
+                }
+            },
+            {
+                "id": "employee4",
+                "place": "@link{places.vijua}",
+                "date": "2024/07",
+                "href": "https://www.linkedin.com/posts/vijua_a-big-congratulations-to-abdullah-saleh-activity-7214561592338751489-aDfB?utm_source=share&utm_medium=member_desktop",
+                "locales": {
+                    "en": {
+                        "title": "Employee of The Month",
+                        "description": "Recognized for hard work, dedication, and positive attitude, which contribute to being a valuable asset to the team."
+                    }
+                }
+            },
+            {
+                "id": "employee3",
+                "place": "@link{places.vijua}",
+                "date": "2022/11",
+                "href": null,
+                "locales": {
+                    "en": {
+                        "title": "Employee of The Month",
+                        "description": "Achieved for consistently delivering high-quality work, demonstrating initiative, and contributing to a positive and productive work environment."
+                    }
+                }
+            },
+            {
+                "id": "employee1",
+                "place": "@link{places.vijua}",
+                "date": "2023/01",
+                "href": "https://www.linkedin.com/posts/vijua_cheers-to-our-2022-employees-of-the-year-activity-7028640142194053121-KAuP?utm_source=share&utm_medium=member_desktop",
+                "locales": {
+                    "en": {
+                        "title": "Employee of The Year",
+                        "description": "Awarded for exceptional performance throughout the year, dedication, and a relentless commitment to excellence in all areas of work."
+                    }
+                }
+            }
+        ]
+    }
+}

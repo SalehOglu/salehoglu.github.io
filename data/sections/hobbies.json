@@ -1,0 +1,88 @@
+{
+    "locales": {
+        "en": {
+            "title": "<span class='text-primary'>Hobbies</span> & Interests",
+            "description": "This is pretty much how I spend my free time:"
+        }
+    },
+
+    "subcategories": [
+        {
+            "id": "activities",
+            "type": "pie",
+            "progress": "number",
+            "faIcon": "fa-solid fa-clock",
+            "locales": {
+                "en": {"title": null}
+            }
+        }
+    ],
+
+    "items": {
+        "activities": [
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-users",
+                "value": 15,
+                "locales": {
+                    "en": {"title": "Family & Friends", "description": "Time spent with cherished loved ones."}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-tasks",
+                "value": 27,
+                "locales": {
+                    "en": {"title": "My Projects", "description": "Pursuing my creative endeavors."}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-couch",
+                "value": 11,
+                "locales": {
+                    "en": {"title": "Relaxing", "description": "Indulging in tranquility, unwinding the stresses of life."}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-book",
+                "value": 18,
+                "locales": {
+                    "en": {"title": "Studying", "description": "Embarking on a continuous journey of learning."}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-dumbbell",
+                "value": 12,
+                "locales": {
+                    "en": {"title": "Exercise", "description": "Dedicating time to physical well-being."}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-utensils",
+                "value": 7,
+                "locales": {
+                    "en": {"title": "Chess", "description": "Sharpening the mind through strategic gameplay and intellectual challenge."}
+                }
+            },
+
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-map",
+                "value": 10,
+                "locales": {
+                    "en": {"title": "Exploring & Reading", "description": "Venturing into new realms and discovering knowledge through books, embracing the thrill of uncharted ideas."}
+                }
+            }
+        ]
+
+    }
+}

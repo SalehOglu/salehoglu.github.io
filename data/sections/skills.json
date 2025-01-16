@@ -1,0 +1,271 @@
+{
+    "locales": {
+        "en": {
+            "title": "<span class='text-primary'>Skill</span> Set",
+            "description": "Exploring the diverse range of skills I've acquired and developed:"
+        }
+    },
+    "subcategories": [
+        {
+            "id": "abilities",
+            "type": "grid",
+            "progress": null,
+            "faIcon": "fa-solid fa-square",
+            "locales": {
+                "en": {
+                    "title": null
+                }
+            }
+        },
+        {
+            "id": "programming",
+            "type": "grid",
+            "progress": "number",
+            "faIcon": "fa fa-code",
+            "locales": {
+                "en": {
+                    "title": "Programming"
+                }
+            }
+        },
+        {
+            "id": "languages",
+            "type": "list",
+            "progress": {
+                "0": "beginner",
+                "20": "rookie",
+                "40": "intermediate",
+                "60": "advanced",
+                "80": "fluent",
+                "100": "native"
+            },
+            "faIcon": "fa fa-language",
+            "locales": {
+                "en": {
+                    "title": "Languages"
+                }
+            }
+        },
+        {
+            "id": "extra",
+            "type": "grid",
+            "progress": null,
+            "faIcon": "fa fa-marker",
+            "locales": {
+                "en": {
+                    "title": "Soft Skills"
+                }
+            }
+        }
+    ],
+    "items": {
+        "abilities": [
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-mobile-alt",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Responsive Layouts",
+                        "description": "Proficient in crafting adaptable layouts for diverse devices, ensuring optimal user experience."
+                    }
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-paint-roller",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Cross-browser compatibility",
+                        "description": "Ability to develop websites that function consistently across different web browsers and their versions."
+                    }
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-laptop-code",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Interactivity",
+                        "description": "Developing intuitive and seamless interactions for user-friendly experiences, harmonizing aesthetics and usability."
+                    }
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fas fa-expand-arrows-alt",
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Accessibility",
+                        "description": "Proficient in developing intuitive and seamless interactions for user-friendly experiences, harmonizing aesthetics and usability."
+                    }
+                }
+            }
+        ],
+        "programming": [
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-html5",
+                "value": 95,
+                "locales": {
+                    "en": {
+                        "title": "HTML 5"
+                    }
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-css3-alt",
+                "value": 90,
+                "locales": {
+                    "en": {
+                        "title": "CSS 3"
+                    }
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-sass",
+                "value": 65,
+                "locales": {
+                    "en": {
+                        "title": "Sass"
+                    }
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-js-square",
+                "value": 85,
+                "locales": {
+                    "en": {
+                        "title": "JavaScript"
+                    }
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-vuejs",
+                "value": 100,
+                "locales": {
+                    "en": {
+                        "title": "Vue 3"
+                    }
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-bootstrap",
+                "value": 75,
+                "locales": {
+                    "en": {
+                        "title": "Bootstrap"
+                    }
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-git",
+                "value": 80,
+                "locales": {
+                    "en": {
+                        "title": "Git"
+                    }
+                }
+            }
+        ],
+        "languages": [
+            {
+                "imageIconUrl": "images/flags/eg.png",
+                "faIcon": null,
+                "value": 100,
+                "locales": {
+                    "en": {
+                        "title": "Arabic"
+                    }
+                }
+            },
+            {
+                "imageIconUrl": "images/flags/en.png",
+                "faIcon": null,
+                "value": 70,
+                "locales": {
+                    "en": {
+                        "title": "English"
+                    }
+                }
+            }
+        ],
+        "extra": [
+            {
+                "imageIconUrl": null,
+                "faIcon": null,
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Communication & Collaboration",
+                        "description": "Ability to work effectively and contribute to a positive and productive team environment."
+                    }
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": null,
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Teamwork",
+                        "description": "Ability to support colleagues and share expertise for the benfit of the team."
+                    }
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": null,
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Adaptability and flexibility",
+                        "description": "Able to adapt new technologies, tools and environments."
+                    }
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": null,
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Time management",
+                        "description": "Able to prioritize tasks effectively and manage multiple projects simultaneously."
+                    }
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": null,
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Willingness to learn",
+                        "description": "Eager to learn new technologies and best practices, staying up-to-date with the latest industry trends."
+                    }
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": null,
+                "value": null,
+                "locales": {
+                    "en": {
+                        "title": "Self learning",
+                        "description": "Highly motivated self-learner with a strong desire for continuous professional development."
+                    }
+                }
+            }
+        ]
+    }
+}

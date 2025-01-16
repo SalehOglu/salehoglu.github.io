@@ -1,0 +1,36 @@
+{
+    "locales": {
+        "en": {
+            "title": "<span class='text-primary'>Professional</span> Experience",
+            "description": "A look into my work experience and career journey."
+        }
+    },
+
+    "items": [
+        {
+            "id": "experience_item_1",
+            "place": "@link{places.self}",
+            "period": ["2018/10", "2019/02"],
+            "locales": {
+                "en": {
+                    "title": "Self-employed",
+                    "description": "Focused on converting design concepts into fully responsive HTML websites. Expertise included developing custom website templates from scratch and converting PSD files into clean, efficient code using the latest libraries and plugins. Each project was executed with a strong emphasis on responsiveness, ensuring optimal user experiences across various devices and screen sizes. Additionally, stayed up to date with industry trends and leveraged cutting-edge technologies to enhance website performance, accessibility, and functionality.",
+                    "tags": ["HTML", "CSS", "JAVASCRIPT", "Responsive Design", "JQUERY"]
+                }
+            }
+        },
+
+        {
+            "id": "experience_item_2",
+            "place": "@link{places.vijua}",
+            "period": ["2019/03", "2025/01"],
+            "locales": {
+                "en": {
+                    "title": "Front-end developer",
+                    "description": "Developed a variety of visual components for responsive web pages and interactive e-book content for the Kotobee Platform. This involved translating UI/UX wireframes into high-quality code using HTML5, CSS3, and JavaScript, ensuring compatibility across multiple devices and platforms. Worked closely with UX/UI designers to create over 150 interactive, responsive e-book layouts and templates for the Kotobee Author platform, which is utilized by hundreds of educational institutions and thousands of students and eBook authors. Responsible for maintaining, optimizing, and troubleshooting landing page performance. Focused on building reusable code for future projects and improving efficiency. Successfully migrated a multi-page user experience to a single-page application (SPA) using Vue.js, resulting in enhanced customer engagement.",
+                    "tags": ["HTML", "CSS", "JAVASCRIPT", "Vue.js", "Bootstrap", "Git", "SEO", "NPM"]
+                }
+            }
+        }
+    ]
+}

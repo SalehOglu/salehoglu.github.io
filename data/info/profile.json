@@ -1,0 +1,56 @@
+{
+    "name": "AbdAllah Saleh",
+    "profilePictureUrl": "images/pictures/avatar.jpg",
+
+    "locales": {
+        "en": {
+            "role": "Front-end Developer"
+        },
+
+        "ar": {
+            "role": "Front-end Developer"
+        }
+    },
+
+    "contact": {
+        "address": {
+            "id": "address",
+            "value": "Cairo, Egypt",
+            "valueShort": "Cairo, Egypt",
+            "faIcon": "fa-solid fa-city",
+            "href": null
+        },
+
+        "email": {
+            "id": "email",
+            "value": "abdullaahsalleh.gmail.com",
+            "valueShort": "abdullaahsalleh.gmail.com",
+            "faIcon": "fa-solid fa-envelope",
+            "href": "mailto:abdullaahsalleh.gmail.com"
+        },
+
+        "github": {
+            "id": "github",
+            "value": "@SalehOglu",
+            "valueShort": "@SalehOglu",
+            "faIcon": "fa-brands fa-github",
+            "href": "https://github.com/SalehOglu"
+        },
+
+        "linkedin": {
+            "id": "linkedin",
+            "value": "@abdullaahsaleh",
+            "valueShort": "@abdullaahsaleh",
+            "faIcon": "fa-brands fa-linkedin",
+            "href": "https://linkedin.com/in/abdullaahsaleh/"
+        },
+
+        "phone": {
+            "id": "phone",
+            "value": "+2 01092515071",
+            "valueShort": "+201092515071",
+            "faIcon": "fa-solid fa-phone",
+            "href": "tel:+201092515071"
+        }
+    }
+}
