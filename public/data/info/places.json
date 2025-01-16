@@ -1,79 +1,26 @@
 {
-    "adobe": {
-        "logoUrl": "images/places/logo-adobe.png",
+    "vijua": {
+        "logoUrl": "images/places/logo-vijua.png",
         "faIcon": "fa fa-house-laptop",
         "locales": {
-            "en": {"name": "Adobe Inc."}
+            "en": {"name": "Vijua"}
         }
     },
 
-    "apple": {
-        "logoUrl": "images/places/logo-apple.png",
-        "faIcon": "fab fa-apple",
+    "self": {
+        "logoUrl": "images/places/logo-self.png",
+        "faIcon": "fab fa-house-laptop",
         "locales": {
-            "en": {"name": "Apple Inc."}
+            "en": {"name": "Self-employed."}
         }
     },
 
-    "coursera": {
-        "logoUrl": "images/places/logo-coursera.png",
-        "faIcon": "fa fa-house-laptop",
-        "locales": {
-            "en": {"name": "Coursera"}
-        }
-    },
-
-    "forbes": {
-        "logoUrl": null,
-        "faIcon": "fa-solid fa-newspaper",
-        "locales": {
-            "en": {"name": "Forbes"}
-        }
-    },
-
-    "google": {
-        "logoUrl": null,
-        "faIcon": "fab fa-google",
-        "locales": {
-            "en": {"name": "Google"}
-        }
-    },
-
-    "harvard": {
-        "logoUrl": "images/places/logo-harvard.png",
+    "mansoura": {
+        "logoUrl": "images/places/logo-mansoura.png",
         "faIcon": "fas fa-university",
         "locales": {
-            "en": {"name": "Harvard University"},
-            "es": {"name": "Universidad de Harvard"},
-            "fr": {"name": "Université Harvard"},
-            "zh": {"name": "哈佛大学"}
-        }
-    },
-
-    "paris": {
-        "logoUrl": "images/places/logo-paris-university.png",
-        "faIcon": "fas fa-university",
-        "locales": {
-            "en": {"name": "University of Paris"},
-            "es": {"name": "Universidad de París"},
-            "fr": {"name": "Université de Paris"},
-            "zh": {"name": "巴黎大学"}
-        }
-    },
-
-    "udacity": {
-        "logoUrl": "images/places/logo-udacity.png",
-        "faIcon": "fa fa-house-laptop",
-        "locales": {
-            "en": {"name": "Udacity"}
-        }
-    },
-
-    "uxStudio": {
-        "logoUrl": "images/places/logo-ux-studio.png",
-        "faIcon": "fas fa-paint-brush",
-        "locales": {
-            "en": {"name": "UX Masters Studio"}
+            "en": {"name": "Mansoura University"},
+            "ar": {"name": "Universidad de Mansoura"}
         }
     }
 }

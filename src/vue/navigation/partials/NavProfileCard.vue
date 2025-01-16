@@ -70,6 +70,10 @@ const props = defineProps({
 
     border: var(--border-width) solid adjust-color(lighten($nav-background-color, 32%), $alpha:-0.85);
     border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+    &:hover {
+        border: var(--border-width) solid #adb5bd;
+    }
 }
 
 .nav-profile-card-title {

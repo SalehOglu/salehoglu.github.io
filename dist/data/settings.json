@@ -8,25 +8,13 @@
         },
 
         {
-            "name": "Español",
-            "id": "es",
-            "flagUrl": "images/flags/es.png"
-        },
-
-        {
-            "name": "Français",
-            "id": "fr",
-            "flagUrl": "images/flags/fr.png"
-        },
-
-        {
-            "name": "中文",
-            "id": "zh",
-            "flagUrl": "images/flags/zh.png"
+            "name": "العربية",
+            "id": "ar",
+            "flagUrl": "images/flags/eg.png"
         }
     ],
 
     "preloaderEnabled": true,
-    "contactFormEnabled": true,
-    "sidebarShrinkingEnabled": false
+    "contactFormEnabled": false,
+    "sidebarShrinkingEnabled": true
 }

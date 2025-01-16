@@ -86,12 +86,26 @@ const orderedItems = computed(() => {
 const _formatItemDate = (item) => {
     const period = item['period']
     const from = utils.localizeDate(period[0], language.getSelectedLanguage()['id'])
-    const to = utils.localizeDate(period[1], language.getSelectedLanguage()['id'])
+    // const to = utils.localizeDate(period[1], language.getSelectedLanguage()['id'])
+
+    // return [{
+    //     faIcon: 'fa fa-calendar-check',
+    //     label: from + ' <span class="me-1 ms-1">➔</span> ' + to
+    // }]
+
+    let label;
+    if (period.length > 1) {
+        const to = utils.localizeDate(period[1], language.getSelectedLanguage()['id']);
+        label = `${from} <span class="me-1 ms-1">➔</span> ${to}`;
+    } else {
+        // If only the start date is provided
+        label = `${from}`;
+    }
 
     return [{
         faIcon: 'fa fa-calendar-check',
-        label: from + ' <span class="me-1 ms-1">➔</span> ' + to
-    }]
+        label: label
+    }];
 }
 </script>
 
