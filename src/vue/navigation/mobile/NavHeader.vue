@@ -117,6 +117,7 @@ const _onLinkClicked = (section) => {
     width: 100%;
     padding: 0.5rem;
     z-index: 99;
+    display: none; //hide for now
 }
 
 .nav-pills {
