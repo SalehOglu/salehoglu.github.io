@@ -64,7 +64,7 @@
                 "title": "MAN Engineering",
                 "logoUrl": "images/portfolio/manEngineering.png",
                 "links": [
-                    {"faIcon": "fa-solid fa-globe", "href": "https://www.man4engineering.com/", "id": "man"}
+                    {"faIcon": "fa-solid fa-globe", "href": "https://www.man4engineering.com/", "id": "MAN"}
                 ],
                 "locales": {
                     "en": {
