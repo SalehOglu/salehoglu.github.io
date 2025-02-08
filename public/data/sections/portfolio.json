@@ -43,7 +43,20 @@
                     }
                 }
             },
-
+            {
+                "id": "academy",
+                "title": "Kotobee Academy",
+                "logoUrl": "images/portfolio/kotobee.png",
+                "links": [
+                    {"faIcon": "fa-solid fa-globe", "href": "https://www.kotobee.com/academy", "id": "Kotobee Academy"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "<li>Develop a Kotobee Academy page with categorized video tutorials, tabbed navigation, and filtering/search tools to enhance user learning of Kotobee Author. The page will feature responsive design, pop-up windows for video display and extra info, and integrate seamlessly with the main Kotobee website.</li>",
+                        "tags": ["HTML", "CSS", "SASS", "JS", "JSON", "TWIG", "Kotobee Academy"]
+                    }
+                }
+            },
             {
                 "id": "kotobee",
                 "title": "Kotobee",
