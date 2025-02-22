@@ -170,6 +170,20 @@
 
         "tools": [
             {
+                "id": "todo",
+                "title": "To-do List",
+                "logoUrl": "images/portfolio/todo.png",
+                "links": [
+                    {"faIcon": "fa-solid fa-globe", "href": "https://vue-todo-tasks.netlify.app/", "id": "todo"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "A simple and intuitive app to help you organize tasks and stay on top of your daily to-dos. Track, prioritize, and complete your tasks with ease.",
+                        "tags": ["HTML", "CSS", "VUE.JS"]
+                    }
+                }
+            },
+            {
                 "id": "extractStyle",
                 "title": "Extract inline styles",
                 "logoUrl": "images/portfolio/tool.png",
