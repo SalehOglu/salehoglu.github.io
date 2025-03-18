@@ -22,7 +22,7 @@
         {
             "id": "tools",
             "locales": {
-                "en": {"title": "Tools"}
+                "en": {"title": "Tools and Apps"}
             }
         }
     ],
@@ -180,6 +180,20 @@
                     "en": {
                         "description": "A simple and intuitive app to help you organize tasks and stay on top of your daily to-dos. Track, prioritize, and complete your tasks with ease.",
                         "tags": ["HTML", "CSS", "VUE.JS"]
+                    }
+                }
+            },
+            {
+                "id": "weather",
+                "title": "Weather App",
+                "logoUrl": "images/portfolio/weather.jpg",
+                "links": [
+                    {"faIcon": "fa-solid fa-globe", "href": "https://sky-radar.netlify.app/", "id": "weather"}
+                ],
+                "locales": {
+                    "en": {
+                        "description": "A Vue weather app that allows users to enter a city name and displays the current temperature and sky status for that location.",
+                        "tags": ["HTML", "CSS", "VUE.JS", "API"]
                     }
                 }
             },
