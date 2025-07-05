@@ -5,28 +5,32 @@
             "description": "Explore a selection of my recent projects and creative works."
         }
     },
-
     "subcategories": [
         {
             "id": "website",
             "locales": {
-                "en": {"title": "Websites"}
+                "en": {
+                    "title": "Websites"
+                }
             }
         },
         {
             "id": "ebooks",
             "locales": {
-                "en": {"title": "E-books"}
+                "en": {
+                    "title": "E-books"
+                }
             }
         },
         {
             "id": "tools",
             "locales": {
-                "en": {"title": "Tools and Apps"}
+                "en": {
+                    "title": "Tools and Apps"
+                }
             }
         }
     ],
-
     "items": {
         "website": [
             {
@@ -34,12 +38,25 @@
                 "title": "Kotobee Books",
                 "logoUrl": "images/portfolio/kbooks.png",
                 "links": [
-                    {"faIcon": "fa-solid fa-globe", "href": "https://books.kotobee.com/", "id": "Kotobee Books"}
+                    {
+                        "faIcon": "fa-solid fa-globe",
+                        "href": "https://books.kotobee.com/",
+                        "id": "Kotobee Books"
+                    }
                 ],
                 "locales": {
                     "en": {
                         "description": "<li>Collaborated with UX/UI and back-end teams to built and develop kotobee-books platform for publishing interactive e-books and connecting thousands of writers and readers around the world.</li><li>Migrated a multi-page user experience into a single page app, improving user engagement using Vue.js.</li>",
-                        "tags": ["HTML", "CSS", "SASS", "JS", "VUE.JS", "JSON", "API", "Kotobee Books"]
+                        "tags": [
+                            "HTML",
+                            "CSS",
+                            "SASS",
+                            "JS",
+                            "VUE.JS",
+                            "JSON",
+                            "API",
+                            "Kotobee Books"
+                        ]
                     }
                 }
             },
@@ -48,12 +65,24 @@
                 "title": "Kotobee Academy",
                 "logoUrl": "images/portfolio/kotobee.png",
                 "links": [
-                    {"faIcon": "fa-solid fa-globe", "href": "https://www.kotobee.com/academy", "id": "Kotobee Academy"}
+                    {
+                        "faIcon": "fa-solid fa-globe",
+                        "href": "https://www.kotobee.com/academy",
+                        "id": "Kotobee Academy"
+                    }
                 ],
                 "locales": {
                     "en": {
                         "description": "<li>Develop a Kotobee Academy page with categorized video tutorials, tabbed navigation, and filtering/search tools to enhance user learning of Kotobee Author. The page will feature responsive design, pop-up windows for video display and extra info, and integrate seamlessly with the main Kotobee website.</li>",
-                        "tags": ["HTML", "CSS", "SASS", "JS", "JSON", "TWIG", "Kotobee Academy"]
+                        "tags": [
+                            "HTML",
+                            "CSS",
+                            "SASS",
+                            "JS",
+                            "JSON",
+                            "TWIG",
+                            "Kotobee Academy"
+                        ]
                     }
                 }
             },
@@ -62,27 +91,47 @@
                 "title": "Kotobee",
                 "logoUrl": "images/portfolio/kotobee.png",
                 "links": [
-                    {"faIcon": "fa-solid fa-globe", "href": "https://www.kotobee.com", "id": "Kotobee"}
+                    {
+                        "faIcon": "fa-solid fa-globe",
+                        "href": "https://www.kotobee.com",
+                        "id": "Kotobee"
+                    }
                 ],
                 "locales": {
                     "en": {
                         "description": "<li>Produced multiple visual elements of responsive web pages and interactive e-book contents for Kotobee Platform by translating UI/UX design wireframes into code, producing high quality markup using HTML5, CSS3, JavaScript that works across many different screens and various platforms.</li> <li>Create +180 interactive and responsive e-books layouts and templates using Kotobee Author platform.</li><li>Building reusable code for next projects and future use.</li>",
-                        "tags": ["HTML", "CSS", "SASS", "JS", "VUE.JS", "BOOTSTRAP", "GIT"]
+                        "tags": [
+                            "HTML",
+                            "CSS",
+                            "SASS",
+                            "JS",
+                            "VUE.JS",
+                            "BOOTSTRAP",
+                            "GIT"
+                        ]
                     }
                 }
             },
-
             {
                 "id": "man",
                 "title": "MAN Engineering",
                 "logoUrl": "images/portfolio/manEngineering.png",
                 "links": [
-                    {"faIcon": "fa-solid fa-globe", "href": "https://www.man4engineering.com/", "id": "MAN"}
+                    {
+                        "faIcon": "fa-solid fa-globe",
+                        "href": "https://www.man4engineering.com/",
+                        "id": "MAN"
+                    }
                 ],
                 "locales": {
                     "en": {
                         "description": "Building responsive website with buildings portfolio for a construction and engineering company.",
-                        "tags": ["HTML", "CSS", "JS", "SASS"]
+                        "tags": [
+                            "HTML",
+                            "CSS",
+                            "JS",
+                            "SASS"
+                        ]
                     }
                 }
             },
@@ -91,30 +140,48 @@
                 "title": "Quranflash",
                 "logoUrl": "images/portfolio/qflash.png",
                 "links": [
-                    {"faIcon": "fa-solid fa-globe", "href": "https://app.quranflash.com", "id": "qflash"}
+                    {
+                        "faIcon": "fa-solid fa-globe",
+                        "href": "https://app.quranflash.com",
+                        "id": "qflash"
+                    }
                 ],
                 "locales": {
                     "en": {
                         "description": "Collaborated in building new landing web sections pages for Quranflash app website.",
-                        "tags": ["HTML", "CSS", "SASS", "JS"]
+                        "tags": [
+                            "HTML",
+                            "CSS",
+                            "SASS",
+                            "JS"
+                        ]
                     }
                 }
             }
         ],
-
         "ebooks": [
-            
             {
                 "id": "space",
                 "title": "Space Journey",
                 "logoUrl": "images/portfolio/space-logo.png",
                 "links": [
-                    {"faIcon": "fa-solid fa-globe", "href": "https://spacejourney.kotobee.com", "id": "Kotobee"}
+                    {
+                        "faIcon": "fa-solid fa-globe",
+                        "href": "https://spacejourney.kotobee.com",
+                        "id": "Kotobee"
+                    }
                 ],
                 "locales": {
                     "en": {
                         "description": "In this interactive experience, the movement of planets comes to life with dynamic effects, offering a visually engaging way to explore space. Creative animations, interactive diagrams, and animated planetary motions provide a deeper understanding of space and the solar system. Features like accordion menus and additional interactive elements allow users to dive into detailed information about space and planets in a more immersive and engaging way.",
-                        "tags": ["HTML", "CSS", "JS", "JQUERY", "Animation","Kotobee services"]
+                        "tags": [
+                            "HTML",
+                            "CSS",
+                            "JS",
+                            "JQUERY",
+                            "Animation",
+                            "Kotobee services"
+                        ]
                     }
                 }
             },
@@ -123,63 +190,128 @@
                 "title": "Plant Anatomy",
                 "logoUrl": "images/portfolio/plant-logo.png",
                 "links": [
-                    {"faIcon": "fa-solid fa-globe", "href": "https://plantanatomy.kotobee.com/", "id": "Kotobee"}
+                    {
+                        "faIcon": "fa-solid fa-globe",
+                        "href": "https://plantanatomy.kotobee.com/",
+                        "id": "Kotobee"
+                    }
                 ],
                 "locales": {
                     "en": {
                         "description": "<b>Plant Anatomy</b> is an interactive sample e-book offers an engaging exploration of Plant Anatomy, covering the study of plant shape, structure, size, and more. Featuring dynamic elements such as embedded videos and interactive image sliders, the e-book allows users to explore plant structures in detail, providing a rich, hands-on learning experience. Dive deeper into the fascinating world of plant anatomy with these multimedia tools that bring the content to life.",
-                        "tags": ["HTML", "CSS", "JS", "Interactivity", "Kotobee services"]
+                        "tags": [
+                            "HTML",
+                            "CSS",
+                            "JS",
+                            "Interactivity",
+                            "Kotobee services"
+                        ]
                     }
                 }
             },
-
             {
                 "id": "aroma",
                 "title": "Aromatherapy",
                 "logoUrl": "images/portfolio/aroma-logo.png",
                 "links": [
-                    {"faIcon": "fa-solid fa-globe", "href": "https://aroma.kotobee.com", "id": "Kotobee"}
+                    {
+                        "faIcon": "fa-solid fa-globe",
+                        "href": "https://aroma.kotobee.com",
+                        "id": "Kotobee"
+                    }
                 ],
                 "locales": {
                     "en": {
                         "description": "<b>Aromatherapy</b> is a holistic healing practice that harnesses the power of natural plant extracts to promote overall health and well-being. In our interactive e-book, the experience is enriched with engaging animations, dynamic hover effects, and creative interactivity cards, allowing users to explore the world of aromatherapy in a more immersive and informative way.",
-                        "tags": ["HTML", "CSS", "JS", "Kotobee services"]
+                        "tags": [
+                            "HTML",
+                            "CSS",
+                            "JS",
+                            "Kotobee services"
+                        ]
                     }
                 }
             },
-
             {
                 "id": "yoga",
                 "title": "Yoge en Casa",
                 "logoUrl": "images/portfolio/yoga-logo.png",
                 "links": [
-                    {"faIcon": "fa-solid fa-globe", "href": "https://yoga.kotobee.com", "id": "Kotobee"}
+                    {
+                        "faIcon": "fa-solid fa-globe",
+                        "href": "https://yoga.kotobee.com",
+                        "id": "Kotobee"
+                    }
                 ],
                 "locales": {
                     "en": {
                         "description": "In this interactive sample e-book, we enhance your learning experience with dynamic charts carousels, and engaging animations, providing a creative and immersive way to explore the world of Yoga from home.",
-                        "tags": ["HTML", "CSS", "JS", "Chart.js", "Kotobee services"]
+                        "tags": [
+                            "HTML",
+                            "CSS",
+                            "JS",
+                            "Chart.js",
+                            "Kotobee services"
+                        ]
                     },
                     "ar": {
                         "description": "¡Déjate llevar al mundo de los postres deliciosos con <b>Sweet Scoops</b>! Esta aplicación es el paraíso de los amantes de los postres, ofreciendo una amplia gama de recetas deliciosas, instrucciones paso a paso y videos para crear tus dulces favoritos. Desde cremosos helados hasta irresistibles pasteles, <b>Sweet Scoops</b> tiene todo lo que necesitas para satisfacer tus antojos de postres. Libera al chef de repostería que llevas dentro y date un caprichoso y delicioso experiencia de postre.",
-                        "tags": ["HTML", "CSS", "JS", "Kotobee services"]
+                        "tags": [
+                            "HTML",
+                            "CSS",
+                            "JS",
+                            "Kotobee services"
+                        ]
                     }
                 }
             }
         ],
-
         "tools": [
+            {
+                "id": "telawa",
+                "title": "Telawa App",
+                "logoUrl": "images/portfolio/quran.jpeg",
+                "links": [
+                    {
+                        "faIcon": "fa-solid fa-globe",
+                        "href": "https://telawah-q.netlify.app/",
+                        "id": "telawa"
+                    }
+                ],
+                "locales": {
+                    "en": {
+                        "description": "Telawa App is a Quran Surahs player built with Vue and Vite, featuring audio playback with a real-time wave effect using WaveSurfer.js. It uses an API to load Surah data and recitations, delivering a smooth and interactive listening experience.",
+                        "tags": [
+                            "HTML",
+                            "CSS",
+                            "VUE.JS",
+                            "Api",
+                            "Vite.js",
+                            "WaveSurfer.js",
+                            "Audio Player"
+                        ]
+                    }
+                }
+            },
             {
                 "id": "todo",
                 "title": "To-do List",
                 "logoUrl": "images/portfolio/todo.png",
                 "links": [
-                    {"faIcon": "fa-solid fa-globe", "href": "https://vue-todo-tasks.netlify.app/", "id": "todo"}
+                    {
+                        "faIcon": "fa-solid fa-globe",
+                        "href": "https://vue-todo-tasks.netlify.app/",
+                        "id": "todo"
+                    }
                 ],
                 "locales": {
                     "en": {
                         "description": "A simple and intuitive app to help you organize tasks and stay on top of your daily to-dos. Track, prioritize, and complete your tasks with ease.",
-                        "tags": ["HTML", "CSS", "VUE.JS"]
+                        "tags": [
+                            "HTML",
+                            "CSS",
+                            "VUE.JS"
+                        ]
                     }
                 }
             },
@@ -188,12 +320,21 @@
                 "title": "Weather App",
                 "logoUrl": "images/portfolio/weather.jpg",
                 "links": [
-                    {"faIcon": "fa-solid fa-globe", "href": "https://sky-radar.netlify.app/", "id": "weather"}
+                    {
+                        "faIcon": "fa-solid fa-globe",
+                        "href": "https://sky-radar.netlify.app/",
+                        "id": "weather"
+                    }
                 ],
                 "locales": {
                     "en": {
                         "description": "A Vue weather app that allows users to enter a city name and displays the current temperature and sky status for that location.",
-                        "tags": ["HTML", "CSS", "VUE.JS", "API"]
+                        "tags": [
+                            "HTML",
+                            "CSS",
+                            "VUE.JS",
+                            "API"
+                        ]
                     }
                 }
             },
@@ -202,12 +343,21 @@
                 "title": "Extract inline styles",
                 "logoUrl": "images/portfolio/tool.png",
                 "links": [
-                    {"faIcon": "fa-solid fa-code", "href": "https://github.com/SalehOglu/extract-inline-style-tool", "id": "github"}
+                    {
+                        "faIcon": "fa-solid fa-code",
+                        "href": "https://github.com/SalehOglu/extract-inline-style-tool",
+                        "id": "github"
+                    }
                 ],
                 "locales": {
                     "en": {
                         "description": "This tool is designed to streamline the process of extracting inline styles from multiple HTML files and consolidating them into a single external CSS file. By analyzing the HTML content, it automatically identifies all inline style attributes and transfers them to a centralized CSS file, organizing the rules and selectors accordingly. Once the extraction is complete, the tool cleans up the HTML files by removing the inline styles, ensuring the documents are more maintainable, efficient, and ready for external styling.",
-                        "tags": ["HTML", "CSS", "JS", "NODE.JS"]
+                        "tags": [
+                            "HTML",
+                            "CSS",
+                            "JS",
+                            "NODE.JS"
+                        ]
                     }
                 }
             }
