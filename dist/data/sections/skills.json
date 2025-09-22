@@ -149,10 +149,20 @@
             {
                 "imageIconUrl": null,
                 "faIcon": "fab fa-vuejs",
-                "value": 100,
+                "value": 90,
                 "locales": {
                     "en": {
                         "title": "Vue 3"
+                    }
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fab fa-vuejs",
+                "value": 80,
+                "locales": {
+                    "en": {
+                        "title": "Nuxt.js"
                     }
                 }
             },

@@ -5,20 +5,30 @@
             "description": "My journey as a Front-End Developer has been defined by a strong commitment to continuous learning, skill development, and active involvement in tech events and communities."
         }
     },
-
     "subcategories": [
         {
             "id": "awards",
             "faIcon": "fa-solid fa-trophy",
             "locales": {
-                "en": {"title": "Awards", "buttonLabel": "More Info"}
+                "en": {
+                    "title": "Awards",
+                    "buttonLabel": "More Info"
+                }
+            }
+        },
+        {
+            "id": "courses",
+            "faIcon": "fa-solid fa-certificate",
+            "locales": {
+                "en": {
+                    "title": "Certifications",
+                    "buttonLabel": "View Certification"
+                }
             }
         }
     ],
-
     "items": {
         "awards": [
-
             {
                 "id": "employee2",
                 "place": "@link{places.vijua}",
@@ -64,6 +74,44 @@
                     "en": {
                         "title": "Employee of The Year",
                         "description": "Awarded for exceptional performance throughout the year, dedication, and a relentless commitment to excellence in all areas of work."
+                    }
+                }
+            }
+        ],
+        "courses": [
+            {
+                "id": "course0",
+                "place": "@link{places.udemy}",
+                "date": "2021/08",
+                "href": "https://www.udemy.com/certificate/UC-2bd08026-8901-40b8-a496-72ab10e5d1ef/",
+                "locales": {
+                    "en": {
+                        "title": "Git and GitHub For Beginners",
+                        "description": "Certified by Udemy in completing Git and GitHub course For Beginners"
+                    }
+                }
+            },
+            {
+                "id": "course1",
+                "place": "@link{places.udemy}",
+                "date": "2025/09",
+                "href": "https://www.udemy.com/certificate/UC-16181427-2a05-4fea-91c6-27e6974916ee/",
+                "locales": {
+                    "en": {
+                        "title": "JavaScript Fundamentals to Advanced",
+                        "description": "Completed comprehensive JavaScript Fundamentals to Advanced on Udemy; acquired practical skills."
+                    }
+                }
+            },
+            {
+                "id": "course12",
+                "place": "@link{places.master}",
+                "date": "2025/09",
+                "href": null,
+                "locales": {
+                    "en": {
+                        "title": "Nuxt 3 Fundamentals",
+                        "description": "Completed comprehensive Nuxt 3 Fundamentals on Frontend Masters platform; acquired practical skills."
                     }
                 }
             }
