@@ -104,7 +104,7 @@
                 }
             },
             {
-                "id": "course12",
+                "id": "course2",
                 "place": "@link{places.master}",
                 "date": "2025/09",
                 "href": null,
@@ -112,6 +112,30 @@
                     "en": {
                         "title": "Nuxt 3 Fundamentals",
                         "description": "Completed comprehensive Nuxt 3 Fundamentals on Frontend Masters platform; acquired practical skills."
+                    }
+                }
+            },
+            {
+                "id": "course3",
+                "place": "@link{places.master}",
+                "date": "2025/06",
+                "href": null,
+                "locales": {
+                    "en": {
+                        "title": "Intermediate Vue",
+                        "description": "Completed Intermediate Vue on Frontend Masters platform"
+                    }
+                }
+            },
+            {
+                "id": "course4",
+                "place": "@link{places.master}",
+                "date": "2025/07",
+                "href": null,
+                "locales": {
+                    "en": {
+                        "title": "Vue 3 Fundamentals",
+                        "description": "Completed Vue 3 Fundamentals on Frontend Masters platform"
                     }
                 }
             }
