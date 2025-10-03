@@ -231,39 +231,6 @@
                         ]
                     }
                 }
-            },
-            {
-                "id": "yoga",
-                "title": "Yoge en Casa",
-                "logoUrl": "images/portfolio/yoga-logo.png",
-                "links": [
-                    {
-                        "faIcon": "fa-solid fa-globe",
-                        "href": "https://yoga.kotobee.com",
-                        "id": "Kotobee"
-                    }
-                ],
-                "locales": {
-                    "en": {
-                        "description": "In this interactive sample e-book, we enhance your learning experience with dynamic charts carousels, and engaging animations, providing a creative and immersive way to explore the world of Yoga from home.",
-                        "tags": [
-                            "HTML",
-                            "CSS",
-                            "JS",
-                            "Chart.js",
-                            "Kotobee services"
-                        ]
-                    },
-                    "ar": {
-                        "description": "¡Déjate llevar al mundo de los postres deliciosos con <b>Sweet Scoops</b>! Esta aplicación es el paraíso de los amantes de los postres, ofreciendo una amplia gama de recetas deliciosas, instrucciones paso a paso y videos para crear tus dulces favoritos. Desde cremosos helados hasta irresistibles pasteles, <b>Sweet Scoops</b> tiene todo lo que necesitas para satisfacer tus antojos de postres. Libera al chef de repostería que llevas dentro y date un caprichoso y delicioso experiencia de postre.",
-                        "tags": [
-                            "HTML",
-                            "CSS",
-                            "JS",
-                            "Kotobee services"
-                        ]
-                    }
-                }
             }
         ],
         "tools": [
@@ -294,6 +261,32 @@
                 }
             },
             {
+                "id": "taskManager",
+                "title": "Task Manager",
+                "logoUrl": "images/portfolio/taskManager.png",
+                "links": [
+                    {
+                        "faIcon": "fa-solid fa-globe",
+                        "href": "https://task-manager-vu.netlify.app/",
+                        "id": "task"
+                    }
+                ],
+                "locales": {
+                    "en": {
+                        "description": "A simple task manager built using Vue.js and Pinia for state management. Users can easily add new tasks, mark tasks as completed, and delete tasks. The app provides a clean and responsive interface to help users stay organized and manage their to-do list efficiently.",
+                        "tags": [
+                            "HTML",
+                            "CSS",
+                            "JavaScript",
+                            "Vue.js",
+                            "Composition API",
+                            "Pinia",
+                            "SCSS"
+                        ]
+                    }
+                }
+            },
+            {
                 "id": "todo",
                 "title": "To-do List",
                 "logoUrl": "images/portfolio/todo.png",
@@ -310,7 +303,7 @@
                         "tags": [
                             "HTML",
                             "CSS",
-                            "VUE.JS"
+                            "Vue.js"
                         ]
                     }
                 }
