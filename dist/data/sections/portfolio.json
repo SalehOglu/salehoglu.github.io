@@ -15,18 +15,18 @@
             }
         },
         {
-            "id": "ebooks",
-            "locales": {
-                "en": {
-                    "title": "E-books"
-                }
-            }
-        },
-        {
             "id": "tools",
             "locales": {
                 "en": {
                     "title": "Tools and Apps"
+                }
+            }
+        },
+        {
+            "id": "ebooks",
+            "locales": {
+                "en": {
+                    "title": "E-books"
                 }
             }
         }
@@ -159,80 +159,6 @@
                 }
             }
         ],
-        "ebooks": [
-            {
-                "id": "space",
-                "title": "Space Journey",
-                "logoUrl": "images/portfolio/space-logo.png",
-                "links": [
-                    {
-                        "faIcon": "fa-solid fa-globe",
-                        "href": "https://spacejourney.kotobee.com",
-                        "id": "Kotobee"
-                    }
-                ],
-                "locales": {
-                    "en": {
-                        "description": "In this interactive experience, the movement of planets comes to life with dynamic effects, offering a visually engaging way to explore space. Creative animations, interactive diagrams, and animated planetary motions provide a deeper understanding of space and the solar system. Features like accordion menus and additional interactive elements allow users to dive into detailed information about space and planets in a more immersive and engaging way.",
-                        "tags": [
-                            "HTML",
-                            "CSS",
-                            "JS",
-                            "JQUERY",
-                            "Animation",
-                            "Kotobee services"
-                        ]
-                    }
-                }
-            },
-            {
-                "id": "plant",
-                "title": "Plant Anatomy",
-                "logoUrl": "images/portfolio/plant-logo.png",
-                "links": [
-                    {
-                        "faIcon": "fa-solid fa-globe",
-                        "href": "https://plantanatomy.kotobee.com/",
-                        "id": "Kotobee"
-                    }
-                ],
-                "locales": {
-                    "en": {
-                        "description": "<b>Plant Anatomy</b> is an interactive sample e-book offers an engaging exploration of Plant Anatomy, covering the study of plant shape, structure, size, and more. Featuring dynamic elements such as embedded videos and interactive image sliders, the e-book allows users to explore plant structures in detail, providing a rich, hands-on learning experience. Dive deeper into the fascinating world of plant anatomy with these multimedia tools that bring the content to life.",
-                        "tags": [
-                            "HTML",
-                            "CSS",
-                            "JS",
-                            "Interactivity",
-                            "Kotobee services"
-                        ]
-                    }
-                }
-            },
-            {
-                "id": "aroma",
-                "title": "Aromatherapy",
-                "logoUrl": "images/portfolio/aroma-logo.png",
-                "links": [
-                    {
-                        "faIcon": "fa-solid fa-globe",
-                        "href": "https://aroma.kotobee.com",
-                        "id": "Kotobee"
-                    }
-                ],
-                "locales": {
-                    "en": {
-                        "description": "<b>Aromatherapy</b> is a holistic healing practice that harnesses the power of natural plant extracts to promote overall health and well-being. In our interactive e-book, the experience is enriched with engaging animations, dynamic hover effects, and creative interactivity cards, allowing users to explore the world of aromatherapy in a more immersive and informative way.",
-                        "tags": [
-                            "HTML",
-                            "CSS",
-                            "JS",
-                            "Kotobee services"
-                        ]
-                    }
-                }
-            }
-        ],
         "tools": [
             {
                 "id": "telawa",
@@ -253,9 +179,36 @@
                             "CSS",
                             "VUE.JS",
                             "API",
-                            "Vite.js",
+                            "Vite",
                             "WaveSurfer.js",
                             "Audio Player"
+                        ]
+                    }
+                }
+            },
+            {
+                "id": "recipe",
+                "title": "Sufrah App",
+                "logoUrl": "images/portfolio/sufrah.png",
+                "links": [
+                    {
+                        "faIcon": "fa-solid fa-globe",
+                        "href": "https://sufrah.netlify.app/",
+                        "id": "sufrah"
+                    }
+                ],
+                "locales": {
+                    "en": {
+                        "description": "Sufrah is a recipe app powered by the DummyJSON API, designed to help you explore and discover a variety of delicious dishes with ease. Built with Nuxt.js",
+                        "tags": [
+                            "HTML",
+                            "CSS",
+                            "JavaScript",
+                            "Nuxt.js",
+                            "Vite",
+                            "Tailwind CSS",
+                            "API",
+                            "SCSS"
                         ]
                     }
                 }
@@ -350,6 +303,80 @@
                             "CSS",
                             "JS",
                             "NODE.JS"
+                        ]
+                    }
+                }
+            }
+        ],
+        "ebooks": [
+            {
+                "id": "space",
+                "title": "Space Journey",
+                "logoUrl": "images/portfolio/space-logo.png",
+                "links": [
+                    {
+                        "faIcon": "fa-solid fa-globe",
+                        "href": "https://spacejourney.kotobee.com",
+                        "id": "Kotobee"
+                    }
+                ],
+                "locales": {
+                    "en": {
+                        "description": "In this interactive experience, the movement of planets comes to life with dynamic effects, offering a visually engaging way to explore space. Creative animations, interactive diagrams, and animated planetary motions provide a deeper understanding of space and the solar system. Features like accordion menus and additional interactive elements allow users to dive into detailed information about space and planets in a more immersive and engaging way.",
+                        "tags": [
+                            "HTML",
+                            "CSS",
+                            "JS",
+                            "JQUERY",
+                            "Animation",
+                            "Kotobee services"
+                        ]
+                    }
+                }
+            },
+            {
+                "id": "plant",
+                "title": "Plant Anatomy",
+                "logoUrl": "images/portfolio/plant-logo.png",
+                "links": [
+                    {
+                        "faIcon": "fa-solid fa-globe",
+                        "href": "https://plantanatomy.kotobee.com/",
+                        "id": "Kotobee"
+                    }
+                ],
+                "locales": {
+                    "en": {
+                        "description": "<b>Plant Anatomy</b> is an interactive sample e-book offers an engaging exploration of Plant Anatomy, covering the study of plant shape, structure, size, and more. Featuring dynamic elements such as embedded videos and interactive image sliders, the e-book allows users to explore plant structures in detail, providing a rich, hands-on learning experience. Dive deeper into the fascinating world of plant anatomy with these multimedia tools that bring the content to life.",
+                        "tags": [
+                            "HTML",
+                            "CSS",
+                            "JS",
+                            "Interactivity",
+                            "Kotobee services"
+                        ]
+                    }
+                }
+            },
+            {
+                "id": "aroma",
+                "title": "Aromatherapy",
+                "logoUrl": "images/portfolio/aroma-logo.png",
+                "links": [
+                    {
+                        "faIcon": "fa-solid fa-globe",
+                        "href": "https://aroma.kotobee.com",
+                        "id": "Kotobee"
+                    }
+                ],
+                "locales": {
+                    "en": {
+                        "description": "<b>Aromatherapy</b> is a holistic healing practice that harnesses the power of natural plant extracts to promote overall health and well-being. In our interactive e-book, the experience is enriched with engaging animations, dynamic hover effects, and creative interactivity cards, allowing users to explore the world of aromatherapy in a more immersive and informative way.",
+                        "tags": [
+                            "HTML",
+                            "CSS",
+                            "JS",
+                            "Kotobee services"
                         ]
                     }
                 }
