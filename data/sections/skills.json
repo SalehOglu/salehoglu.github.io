@@ -168,6 +168,16 @@
             },
             {
                 "imageIconUrl": null,
+                "faIcon": "fa-solid fa-lemon",
+                "value": 70,
+                "locales": {
+                    "en": {
+                        "title": "Pinia"
+                    }
+                }
+            },
+            {
+                "imageIconUrl": null,
                 "faIcon": "fab fa-bootstrap",
                 "value": 75,
                 "locales": {
@@ -183,6 +193,16 @@
                 "locales": {
                     "en": {
                         "title": "Git"
+                    }
+                }
+            },
+            {
+                "imageIconUrl": null,
+                "faIcon": "fa-solid fa-water",
+                "value": 60,
+                "locales": {
+                    "en": {
+                        "title": "Tailwind CSS"
                     }
                 }
             }
