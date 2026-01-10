@@ -113,6 +113,33 @@
                 }
             },
             {
+                "id": "usersDashboard",
+                "title": "Users Management Dashboard",
+                "logoUrl": "images/portfolio/users.png",
+                "links": [
+                    {
+                        "faIcon": "fa-solid fa-globe",
+                        "href": "https://user-board-vue.netlify.app/",
+                        "id": "usersDashboard"
+                    }
+                ],
+                "locales": {
+                    "en": {
+                        "description": "A frontend web application displaying a list of users fetched from a public API, allow searching and pagination, show user details in a modal, and allow the logged-in user to edit their own profile.",
+                        "tags": [
+                            "HTML",
+                            "CSS",
+                            "JS",
+                            "Vue.js 3",
+                            "Vue Router",
+                            "Vite",
+                            "Pinia",
+                            "Axios"
+                        ]
+                    }
+                }
+            },
+            {
                 "id": "man",
                 "title": "MAN Engineering",
                 "logoUrl": "images/portfolio/manEngineering.png",
