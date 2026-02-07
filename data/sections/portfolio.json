@@ -333,6 +333,29 @@
                         ]
                     }
                 }
+            },
+            {
+                "id": "pythonRunner",
+                "title": "Python Runner",
+                "logoUrl": "images/portfolio/python.png",
+                "links": [
+                    {
+                        "faIcon": "fa-solid fa-globe",
+                        "href": "https://python-runner.netlify.app/",
+                        "id": "python-netlify"
+                    }
+                ],
+                "locales": {
+                    "en": {
+                        "description": "Python Runner turns your device into a streamlined coding powerhouse. Designed with a 'widget-first' philosophy, it allows you to execute scripts, test snippets, and monitor outputs without ever fully launching a heavy IDE.",
+                        "tags": [
+                            "HTML",
+                            "CSS",
+                            "JS",
+                            "Widget"
+                        ]
+                    }
+                }
             }
         ],
         "ebooks": [

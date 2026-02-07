@@ -30,6 +30,17 @@
     "items": {
         "awards": [
             {
+                "id": "employee5",
+                "place": "@link{places.vijua}",
+                "date": "2026/01",
+                "locales": {
+                    "en": {
+                        "title": "Employee of The Month",
+                        "description": "Honored for outstanding performance, dedication, and consistent contributions, showcasing a strong work ethic."
+                    }
+                }
+            },
+            {
                 "id": "employee2",
                 "place": "@link{places.vijua}",
                 "date": "2024/10",
