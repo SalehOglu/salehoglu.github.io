@@ -33,10 +33,11 @@
                 "id": "employee5",
                 "place": "@link{places.vijua}",
                 "date": "2026/01",
+                "href": "https://www.linkedin.com/posts/vijua_employeeofthemonth-vijua-teamappreciation-activity-7426639101845626880-7PFK/",
                 "locales": {
                     "en": {
                         "title": "Employee of The Month",
-                        "description": "Honored for outstanding performance, dedication, and consistent contributions, showcasing a strong work ethic."
+                        "description": "Awarded for recognition of consistently supporting the team, simplifying complex front-end concepts, and delivering clear, user-friendly solutions."
                     }
                 }
             },
